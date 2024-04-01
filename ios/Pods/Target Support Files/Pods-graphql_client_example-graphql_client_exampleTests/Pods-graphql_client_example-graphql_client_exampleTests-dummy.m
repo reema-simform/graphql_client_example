@@ -1,5 +1,0 @@
-#import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_graphql_client_example_graphql_client_exampleTests : NSObject
-@end
-@implementation PodsDummy_Pods_graphql_client_example_graphql_client_exampleTests
-@end
