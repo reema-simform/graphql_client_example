@@ -131,7 +131,7 @@ DerivedData/
 Carthage/
 
 # CocoaPods
-ios/Pods/
+ios/Pods
 
 # fastlane
 fastlane/report.xml
