@@ -111,13 +111,46 @@ package-lock.json
 /**/.ruby-version
 vendor/
 
-# iOS / CocoaPods
-/packages/react-native/template/ios/build/
-/packages/react-native/template/ios/Pods/
-/packages/react-native/template/ios/Podfile.lock
-/packages/rn-tester/Gemfile.lock
-/packages/**/RCTLegacyInteropComponents.mm
-/Pods
+# Xcode Project
+**/*.xcodeproj/xcuserdata/
+**/*.xcworkspace/xcuserdata/
+**/.swiftpm/xcode/xcuserdata/
+**/*.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+**/*.xcworkspace/xcshareddata/*.xccheckout
+**/*.xcworkspace/xcshareddata/*.xcscmblueprint
+**/*.playground/**/timeline.xctimeline
+.idea/
+
+# Build
+**/.build/
+**/Build/
+DerivedData/
+*.ipa
+
+# Carthage
+Carthage/
+
+# CocoaPods
+ios/Pods/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/sign&cert
+
+# CSV
+*.orig
+.svn
+
+# Other
+*~
+.DS_Store
+*.swp
+*.save
+._*
+*.bak
 
 # Ignore RNTester specific Pods, but keep the __offline_mirrors__ here.
 /packages/rn-tester/Pods/*
